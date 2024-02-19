@@ -1,9 +1,12 @@
+# Me and my partner were able to sovle the mice to holes problem correctly. I personally didn't run into any more issues 
+# switching from the psuedo code I wrote and the tips she gave me. 
+
 def MTH(mices, holes, n, m):
     # If there are more mice then holes stop
     if (m > n):
         return -1
     
-    # Start by sorting the mice and the holes. Then see the max difference between each one for the longest time
+    # Start by sorting the mice and the holes. The sort function used is the standard sort function in python. It sorts them in ascending order
     mices.sort()
     holes.sort()
     
