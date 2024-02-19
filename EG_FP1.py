@@ -1,5 +1,6 @@
-# Me and my partner were able to sovle the mice to holes problem correctly. I personally didn't run into any more issues 
-# switching from the psuedo code I wrote and the tips she gave me. 
+# In this problem I was to code the greedy algorithm of mice to holes. My design is I sort the mice and the holes and line them up in the array. 
+# Me and my partner were able to sovle the mice to holes problem correctly. 
+# I personally didn't run into any more issues switching from the psuedo code I wrote and the tips she gave me. 
 
 def MTH(mices, holes, n, m):
     # If there are more mice then holes stop
@@ -21,7 +22,8 @@ def MTH(mices, holes, n, m):
     return max
 
 def main():
-    # Position of mice
+    # Position of mice and holes
+    # Edit these arrays to test different values, note there cannot be more mice then holes for this to work. 
     mice = [ 4, 9, 2 ]
     holes = [ 4, 0, 5 ]
 
